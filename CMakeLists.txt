@@ -19,7 +19,7 @@ catkin_package(
   LIBRARIES mesh_loader ${PROJECT_NAME}
   )
 
-include_directories(include ply ${Boost_INCLUDE_DIRS})
+include_directories(include ply ${Boost_INCLUDE_DIRS} ${catkin_INCLUDE_DIRS})
 
 install(DIRECTORY include/${PROJECT_NAME}/ DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION})
 
@@ -40,6 +40,11 @@ add_executable(objects_database_node
   nodes/objects_database_node.cpp
 )
 target_link_libraries(objects_database_node ${PROJECT_NAME} ${catkin_LIBRARIES})
+
+#add_executable(objects_database_node_simple
+#  nodes/objects_database_node_simple.cpp
+#)
+#target_link_libraries(objects_database_node_simple ${PROJECT_NAME} ${catkin_LIBRARIES})
 
 add_executable(insert_model 
   src/insert_model.cpp
