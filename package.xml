@@ -9,13 +9,12 @@
   <author>Matei Ciocarlie, except for source files individually marked otherwise</author>
   <license>BSD, except for source files individually marked otherwise</license>
   <maintainer email="matei@willowgarage.com">Matei Ciocarlie</maintainer>
-  <version>0.1.2</version>
+  <version>0.1.3</version>
 
   <buildtool_depend>catkin</buildtool_depend>
 
   <build_depend>household_objects_database_msgs</build_depend>
-  <build_depend>manipulation_msgs</build_depend>
- 
+  <build_depend>manipulation_msgs</build_depend> 
   <build_depend>sql_database</build_depend>
   <build_depend>roscpp</build_depend>
   <build_depend>tf</build_depend>
@@ -30,6 +29,7 @@
   <run_depend>rospy</run_depend>
   <run_depend>rosservice</run_depend>  
   <run_depend>sql_database</run_depend>
+  <run_depend>actionlib</run_depend>
  
 </package>
 
