@@ -1,0 +1,12 @@
+Source: ros-hydro-household-objects-database
+Section: misc
+Priority: extra
+Maintainer: Matei Ciocarlie <matei@willowgarage.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-actionlib, ros-hydro-catkin, ros-hydro-household-objects-database-msgs, ros-hydro-manipulation-msgs, ros-hydro-roscpp, ros-hydro-sql-database, ros-hydro-tf
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-hydro-household-objects-database
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-actionlib, ros-hydro-household-objects-database-msgs, ros-hydro-manipulation-msgs, ros-hydro-roscpp, ros-hydro-rosgraph, ros-hydro-roslib, ros-hydro-rospy, ros-hydro-rosservice, ros-hydro-sql-database
+Description: Class definitions and a few convenience functions for interfacing with a specific SQL database, containing 3D models of a set of common household objects.
