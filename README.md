@@ -1,3 +1,24 @@
+## household_objects_database (indigo) - 0.1.4-0
+
+The packages in the `household_objects_database` repository were released into the `indigo` distro by running `/usr/bin/bloom-release household_objects_database --track indigo --rosdistro indigo --new-track` on `Mon, 23 Mar 2015 16:51:32 -0000`
+
+The `household_objects_database` package was released.
+
+Version of package(s) in repository `household_objects_database`:
+- upstream repository: https://github.com/ros-interactive-manipulation/household_objects_database.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.1.4-0`
+
+Versions of tools used:
+- bloom version: `0.5.19`
+- catkin_pkg version: `0.2.6`
+- rosdep version: `0.11.1`
+- rosdistro version: `0.4.0`
+- vcstools version: `0.1.36`
+
+
 ## household_objects_database (hydro) - 0.1.4-0
 
 User `matei@lga` released the packages in the `household_objects_database` repository into the `hydro` distro by running `/usr/bin/bloom-release household_objects_database --track hydro --rosdistro hydro` on `Fri, 28 Feb 2014 20:05:58 -0000`
